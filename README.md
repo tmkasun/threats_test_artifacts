@@ -4,20 +4,20 @@ Well known XML &amp; JSON request payload attacks testing artifacts and document
 # This repository contain test artifacts for following threat types
 
 * JSON
-  * maxArrayElementCount
-  * maxElementDepth.json
-  * maxKeyLength.json
-  * maxPropertyCount.json
-  * maxStringLength.json
+  * max Array Element Count
+  * maxElementDepth
+  * maxKeyLength
+  * maxPropertyCount
+  * maxStringLength
   * property_counter
   * serverside_injection
   * sql_injection
 * XML
   * maxAttributeCount
-  * maxAttributeLength.xml
-  * maxChildrenPerElement.xml
-  * maxElementCount.xml
-  * maxXMLDepth.xml
-  * xmlExternalEntityAttack.xml
-  * xmlGenericEntityExpansion.xml
-  * xmlRecursiveEntityExpansion_BOMB.xml
+  * maxAttributeLength
+  * maxChildrenPerElement
+  * maxElementCount
+  * maxXMLDepth
+  * xmlExternalEntityAttack
+  * xmlGenericEntityExpansion
+  * xmlRecursiveEntityExpansion_BOMB
