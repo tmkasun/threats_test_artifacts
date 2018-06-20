@@ -1,0 +1,12 @@
+<sequence xmlns="http://ws.apache.org/ns/synapse" name="dynamic_ep">
+   <property expression="json-eval($.operation)" name="operation" />
+   <filter regex="menu" source="$ctx:operation">
+      <then>
+         <header name="To" value="http://localhost:8000/menuEp" />
+      </then>
+      <else>
+         <header name="To" value="http://localhost:8000/otherEp" />
+      </else>
+   </filter>
+   <property expression="get-property('To')" name="ENDPOINT_ADDRESS" />
+</sequence>
